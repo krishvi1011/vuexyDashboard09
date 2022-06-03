@@ -1,0 +1,1746 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard Vuexy</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo.36f34a9f.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./nav.css">
+    <link rel="stylesheet" href="./page.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="sidebar sidebar-width">
+            <div class="sidebar-top">
+                <div class="sidebar-top-left">
+                    <img class="sidebar-top-left-img"
+                        src="https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/demo-1/img/logo.36f34a9f.svg"
+                        alt="">
+                    <p class="brand-name">Vuexy</p>
+                </div>
+                <div class="sidebar-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" color="#8277F1" display="flex" align-items="center"
+                        width="20px" height="20px" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="d-block d-xl-none feather feather-x">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </div>
+                <div class="sidebar-top-right">
+                    <svg xmlns="http://www.w3.org/2000/svg" color="#8277F1" width="20px" height="20px"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="d-none d-xl-block collapse-toggle-icon feather feather-disc">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <circle cx="12" cy="12" r="3"></circle>
+                    </svg>
+                </div>
+            </div>
+            <div class="sidebar-bottom">
+                <div class="bottom-top">
+                    <div class="bottom-top-top">
+                        <div class="bottom-top-top-Dashboad">
+                            <div class="bottom-top-top-Dashboad-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-home">
+                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                                </svg>
+                            </div>
+                            <p class="bottom-top-top-Dashboad-name">Dashboards</p>
+                            <span class="dashboard-number">2</span>
+                        </div>
+                        <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" position="absolute" right="-36px" color="#808080" width="18px" height="18px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline data-v-9a6e255c="" points="9 18 15 12 9 6"></polyline></svg>
+                    </div>
+
+                </div>
+                <div class="bottom-middle">
+                    <p class="bottom-middle-heading">APPS & PAGES</p>
+                    <div class="appPages">
+                        <div class="sidebar-options">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-mail">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <p class="sidebar-options-name">Email</p>
+                        </div>
+                        <div class="sidebar-options">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-message-square">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                            </svg>
+                            <p class="sidebar-options-name">Chat</p>
+                        </div>
+                        <div class="sidebar-options">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-check-square">
+                                <polyline points="9 11 12 14 22 4"></polyline>
+                                <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+                            </svg>
+                            <p class="sidebar-options-name">Todo</p>
+                        </div>
+                        <div class="sidebar-options">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-calendar">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                            <p class="sidebar-options-name">Calendar</p>
+                        </div>
+                        <div class="sidebar-options">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-file-text">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg>
+                            <p class="sidebar-options-name">Invoice</p>
+                        </div>
+                        <div class="sidebar-options">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-shopping-cart">
+                                <circle cx="9" cy="21" r="1"></circle>
+                                <circle cx="20" cy="21" r="1"></circle>
+                                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            </svg>
+                            <p class="sidebar-options-name">eCommerce</p>
+                        </div>
+                        <div class="sidebar-options">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-user">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                            <p class="sidebar-options-name">User</p>
+                        </div>
+                        <div class="sidebar-options">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-file">
+                                <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+                                <polyline points="13 2 13 9 20 9"></polyline>
+                            </svg>
+                            <p class="sidebar-options-name">Pages</p>
+                        </div>
+                    </div>
+                    <p class="bottom-middle-heading">USER INTERFACE</p>
+                    <div class="appPages">
+                        <div class="sidebar-options">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-type">
+                                <polyline points="4 7 4 4 20 4 20 7"></polyline>
+                                <line x1="9" y1="20" x2="15" y2="20"></line>
+                                <line x1="12" y1="4" x2="12" y2="20"></line>
+                            </svg>
+                            <p class="sidebar-options-name">Typography</p>
+                        </div>
+                        <div class="sidebar-options">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-droplet">
+                                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+                            </svg>
+                            <p class="sidebar-options-name">Color</p>
+                        </div>
+                        <div class="sidebar-options">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-eye">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                            </svg>
+                            <p class="sidebar-options-name">Feather</p>
+                        </div>
+                        <div class="sidebar-options">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-credit-card">
+                                <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+                                <line x1="1" y1="10" x2="23" y2="10"></line>
+                            </svg>
+                            <p class="sidebar-options-name">Cards</p>
+                        </div>
+                        <div class="sidebar-options">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-plus-circle">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="8" x2="12" y2="16"></line>
+                                <line x1="8" y1="12" x2="16" y2="12"></line>
+                            </svg>
+                            <p class="sidebar-options-name">Extensions</p>
+                        </div>
+                        <div class="sidebar-options">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-layout">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="3" y1="9" x2="21" y2="9"></line>
+                                <line x1="9" y1="21" x2="9" y2="9"></line>
+                            </svg>
+                            <p class="sidebar-options-name">Page Layout</p>
+                        </div>
+                    </div>
+                    <p class="bottom-middle-heading">FORMS & TABLES</p>
+                    <div class="appPages">
+                        <div class="sidebar-options">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-copy">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                            </svg>
+                            <p class="sidebar-options-name">Forms Elements</p>
+                        </div>
+                        <div class="sidebar-options">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-copy">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                            </svg>
+                            <p class="sidebar-options-name">Form Layout</p>
+                        </div>
+                        <div class="sidebar-options">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-package">
+                                <line x1="16.5" y1="9.4" x2="7.5" y2="4.21"></line>
+                                <path
+                                    d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                                </path>
+                                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                            </svg>
+                            <p class="sidebar-options-name">Form Wizard</p>
+                        </div>
+                        <div class="sidebar-options">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-check-circle">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <p class="sidebar-options-name">Form Validation</p>
+                        </div>
+                        <div class="sidebar-options">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-copy">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                            </svg>
+                            <p class="sidebar-options-name">Form Repeater</p>
+                        </div>
+                        <div class="sidebar-options">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-server">
+                                <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                                <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                                <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                                <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                            </svg>
+                            <p class="sidebar-options-name">BS Table</p>
+                        </div>
+                        <div class="sidebar-options">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-grid">
+                                <rect x="3" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="14" width="7" height="7"></rect>
+                                <rect x="3" y="14" width="7" height="7"></rect>
+                            </svg>
+                            <p class="sidebar-options-name">Good Table</p>
+                        </div>
+                        <p class="bottom-middle-heading">CHARTS & MAPS</p>
+                        <div class="appPages">
+                            <div class="sidebar-options">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-pie-chart">
+                                    <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+                                    <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
+                                </svg>
+                                <p class="sidebar-options-name">Charts</p>
+                            </div>
+                            <div class="sidebar-options">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-map">
+                                    <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon>
+                                    <line x1="8" y1="2" x2="8" y2="18"></line>
+                                    <line x1="16" y1="6" x2="16" y2="22"></line>
+                                </svg>
+                                <p class="sidebar-options-name">Leaflet</p>
+                            </div>
+                        </div>
+                        <p class="bottom-middle-heading">OTHERS</p>
+                        <div class="appPages">
+                            <div class="sidebar-options">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-shield">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                </svg>
+                                <p class="sidebar-options-name">Acess Control</p>
+                            </div>
+                            <div class="sidebar-options">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-menu">
+                                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                                </svg>
+                                <p class="sidebar-options-name">Menu Levels</p>
+                            </div>
+                            <div class="sidebar-options">
+                                <span class="material-icons-outlined">
+                                    language
+                                </span>
+                                <p class="sidebar-options-name">Raise Support</p>
+                            </div>
+                            <div style="padding-bottom: 68px;" class="sidebar-options">
+                                <span class="material-icons-outlined">
+                                    description
+                                </span>
+                                <p class="sidebar-options-name">Documentation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="right-main-content main-content-width">
+            <div class="shadow"></div>
+            <div class="black-drop"></div>
+            <section class="navbar card">
+                <div class="navbar-left">
+                    <div class="head-menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" color="#6E6B7B" width="21px" height="21px"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg>
+                    </div>
+                    <div class="active">
+                        <svg data-v-1134b199="" xmlns="http://www.w3.org/2000/svg" width="21px" height="21px"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+                            <rect data-v-1134b199="" x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line data-v-1134b199="" x1="16" y1="2" x2="16" y2="6"></line>
+                            <line data-v-1134b199="" x1="8" y1="2" x2="8" y2="6"></line>
+                            <line data-v-1134b199="" x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        <svg data-v-1134b199="" xmlns="http://www.w3.org/2000/svg" width="21px" height="21px"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square">
+                            <path data-v-1134b199="" d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z">
+                            </path>
+                        </svg>
+                        <svg data-v-1134b199="" xmlns="http://www.w3.org/2000/svg" width="21px" height="21px"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail">
+                            <path data-v-1134b199=""
+                                d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline data-v-1134b199="" points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <svg data-v-1134b199="" xmlns="http://www.w3.org/2000/svg" width="21px" height="21px"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-square">
+                            <polyline data-v-1134b199="" points="9 11 12 14 22 4"></polyline>
+                            <path data-v-1134b199="" d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11">
+                            </path>
+                        </svg>
+                        <svg data-v-1134b199="" xmlns="http://www.w3.org/2000/svg" width="21px" height="21px"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            class="text-warning feather feather-star star">
+                            <polygon data-v-1134b199=""
+                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                            </polygon>
+                        </svg>
+                    </div>
+                </div>
+                <div class="navbar-right">
+                    <div class="lang">
+                        <img class="lan-img"
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAA1CAMAAACA7r40AAAA/FBMVEWyIjNPN2Y8O27///8/PnBOTXxycpY9PG9RUX5HR3dIR3dLSnlPTny4uMpWVYFFRHVwb5VlZIx7e52DgqOIh6aIiKc+PXBJSHhTUn9hYYqyIjReXohgX4lYV4Lr6/C2tcjPdYB0c5haWYRYV4Nra5GJiac+PW/FxdTHYG1RUH3eoajltbtOTXvty89BQHHg3+hSUX6GYoC6usyVlbFycZa7u8yUk6+sq8FCQXO0tMe1tMhiYYpMS3pDQnNvbpTExNN8fJ7GxdTGxtWCgqLHx9WXlrLXi5SYl7Kiobrg4Oiiorrn5u3n5+2jo7ukpLvw8PTx8fX09Pf19firqsC5sMNxAAAAAnRSTlPQ9qN1Xw4AAAGlSURBVHhe7ZXFiiRBFEVjznvp5W7t7j3u7m7//y8D1dAMGbnI4jW5KOpsgjibCxFcrrtVEmcBGAGQJHB98d3EgEM/ygsg/nwRAy15rxQ4Ywh3JQX49hVgKA/Ad1hDkkGTMSQJjGkOEmo133FmwAEQyl8FfSj3gFgkzjsQAw6AZ796AP2fGcDBS8/ZQ7ZQlJ2d+bEFqp6zhuh9Cf9/pDtKkTs04KBTD4jgx3eICOodoshz1p7M6UUAUQ+Ap2Pf2UMI5UBBX18/Ut7ZQ84Jui10QKsbcA7dt77jxIBDt+sxMNzrD4HL+rZS4Iw9iTZkCjRFmsBUHkcUOGMI7dkpKezuQsrprM3zR76zN572ekdBX623gaONJ0d5B5sGHAA1+QTwRQJgX2Q/7+w9GZGlDZKERpoxgkbDc8s0WscGSo+WGMiNVlgwWuFNjdafPsDe7wzg3RvP2UNCFGVtbX6EoOo7PhgoO1rGnswHiquB4mqgfIcxpBTGkNslMf2JVMAShRxXgJtUwBKFbFbAqicL4U4qYNWThXCHFbDqyUK4swpY9WQhXBX8A2rVjaQ6HWXmAAAAAElFTkSuQmCC"
+                            alt="">
+                        <p class="lan-name">English</p>
+                    </div>
+                    <div class="icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="21px" height="21px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                        <svg data-v-0e8a7f4f="" xmlns="http://www.w3.org/2000/svg" width="21px" height="21px"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+                            <circle data-v-0e8a7f4f="" cx="11" cy="11" r="8"></circle>
+                            <line data-v-0e8a7f4f="" x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        <span style="position: relative;" class="material-icons-outlined">
+                            <svg data-v-a58fee00="" xmlns="http://www.w3.org/2000/svg" width="21px" height="21px"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="text-body feather feather-shopping-cart">
+                                <circle data-v-a58fee00="" cx="9" cy="21" r="1"></circle>
+                                <circle data-v-a58fee00="" cx="20" cy="21" r="1"></circle>
+                                <path data-v-a58fee00=""
+                                    d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            </svg>
+                            <span class="txt-bgnd">4</span>
+                        </span>
+                        <span style="position: relative; " class="material-icons-outlined">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21px" height="21px" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="text-body feather feather-bell">
+                                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                                <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                            </svg>
+                            <span style="    background: #ea5455!important;" class="txt-bgnd">6</span>
+                        </span>
+
+                    </div>
+                    <div class="per-name">
+                        <p class="name">
+                            John Doe
+                        </p>
+                        <p class="desg">admin</p>
+                    </div>
+                    <div style="height: 100%;
+                    margin-top: 4px;
+                    position: relative;">
+                        <img class="person-img"
+                            src="https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/demo-1/img/13-small.d796bffd.png"
+                            alt="">
+                        <span class="user-active"></span>
+                    </div>
+                </div>
+            </section>
+            <section class="main-content">
+                <section class="main-content-top">
+                    <div class="cong-content card">
+                        <img class="cong-content-image-left"
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAAB0CAMAAABExqW4AAAB/lBMVEUAAABiVu5iVu5Hi9L/vAFiVu5iVu7/vAFiVu5iVu5iVu5iVu5iVu5iVu5iVu5iVu78syv/vAFiVu5iVu5iVu7/vAFiVu5iVu7/vAFiVu5iVu7/vAFiVu7tj51iVu5iVu5iVu7/vAH/vAFiVu5iVu5iVu5iVu5iVu7/vAFiVu5iVu5iVu5iVu5iVu5iVu78tCn/vAFiVu7/vAFiVu5iVu5iVu5iVu7/vAH/vAHtj53/vAHtj51iVu5iVu7/vAFiVu4b0af/vAH/vAFiVu5iVu5iVu4b0aftj53/vAH/vAHtj51iVu7/vAEb0acb0adiVu7/vAH/vAHtj53/vAFiVu5iVu7/vAFiVu5iVu5iVu7/vAH/vAFiVu5iVu7tj53tj51iVu4b0adiVu5iVu7/vAH/vAH/vAFiVu7/vAH/vAH/vAEb0acb0af/vAH/vAH/vAH/vAH/vAH/vAFiVu7/vAH/vAH/vAFiVu4b0acb0af/vAFiVu7/vAEb0acb0acb0af/vAEb0af/vAH/vAH/vAH/vAEb0aftj53tj53/vAEb0af/vAH/vAEb0aftj53/vAEb0aftj53tj50b0aftj53tj50b0acb0af/vAEb0acb0acb0acb0aftj53tj53tj50b0aftj53tj53tj53tj53tj51iVu7/vAHtj50b0ae3TuNqAAAApnRSTlMABvYD4f0L8RTpiPLhtTglBP76zEz37L6YGwL0pZmRg0L85uWuoXcvIx4Pl41vXgfruaacZlM8Hw/17+Pb1NLIsa+OamFWS0g+OCMhE/3s19bPwb6yqaF+c1lZSUYYFvzdyMN7e2tONCgXDfvjy7i0m4N0Tzs0LSsiFtzQxcKhlIqHcWVDMZp7b25gXlMzHQoH79fWzru3p5N8d3A/27OhVVE9L6mPdPsNfAAAChJJREFUeNrE2utTElEYBvDHQCgzg5LEyEysJLtgVELYja5iZjo0VlBTlpqa10q7WVnqhybLmma6TH0+R/7LVjda2N1z9pC76++rMw7PvMt73vMusMFghOpww1KNZbCLpy9O7U/oOr2uBPaYH6HU/oSuKkJ2wQ5DZ+voGiQs2UQIqYUN+p2UyQnLOHYTyWlYLjpG6VokdOwgy0obYS3PowBdk4TbjxDZY1gqlvBSkxK21bTcaalpg6Cd5K/9sNDkeICOvj9lSsJLx5eWHb8EIWUk5yqsEuvropIJYPJH06oTtkkB5YhCVbxOFNWwRFIq34oFSMILKe/qEtYs5dTA2A2S5xBk5pdPFoIs2vtiNQlblnJaYOgcybcHZkt257XPOBSt3b7/TnhnKecOjBwiBerNLl9hY0kV/nV22voaXiglhZ7CPE80VToLlYGZgrZzyvTvYeUWonIOJmnXOxc+QMPTn6grOmHbF8FeeksTkFwD1883Z3qGvwuWT2sKegbfdSoJTT0Pm9cRjY0O8HRkJa+Myid/Yi2fBwxJv7uohPhU03K8peYTuCo2Eh0V4PmalXwFT2vERxlGwLaYTnmlhGZq2Eb03AdPT1bSwS8f2zi4QhNjMNHTDURXFXjODH/99vot9ExOjMnlY5uFjTaXE33rXCiep/Wsk9IuaiAJ+1SXE5ZbKFI445cPtXS/k/LULaKA48xFWOX2CcJUhmIsLkTiVOZtl1cwTJ0o9Db78Bessf4kYdsKYbEPiYBqIJkcoUwRFLh4Reparz/DCrUvNxCm0vUQMjg76tMZyTzvA5ThEfI968gu63kOa5Rsbr55Y+fu0/WlRO0CjEXfpTTPY7/RsmkO+V5lZcMfYbYbDcjjqK44drBsx72764RXGQO9I16dPjKEnIUg1dOOfB+Hs7JXMNf2MtY1d31D5dHaPYdPvgTP/ATjTJ+GIvbDa3y9fd6TXdbxDKZyHOF2Sz7PE+nYY5lAvqT2cExA5fNrKeCVizBVyW7O/YHPM+cPUo5Wo9XoBDR+Pcy+hakaq4jkLoqX6Y5TLl8YKqFRdSfSunjGATPd3iqfBy4IG5rqf3820ZVKvqB8o9BKFxQ9Cstdzk0yD2AoPJDpm4mMNP07yobGKVcvdMT8SsdpguUa6kV3hpHpoOokGATQ30Q5JqHrSaeyhbJa8zbh0ZOqjclTzChlinugL9zrU0YeS1XmrSw2FZswDVmfjzIkwBRKKf/DQoe2EEV5kQndYfw1wLoD9oHjw/LzPQBLHSQFXODibB/CM16qZwo87d3egAcW2l5b1LoJ3MO81Um1gjAw1w0rKJOayvmiEr5AgViEcfWznzKpqR0Al9FRl45zltn2c1URjU3FJPSGoBZN0UJRrJ31W4lWObjY1yJlrvZpnmP7KZOaViN4RLac851U4ceaeVpPdFWIJ/TFoGsx75abxlqp2EYU4s1UsE1mgsoe0W7KpMawUzxhBkztCbqiC6aK+p0+pz8KYze3EJbDwgmDHnDMBswfqufc8qg4ByN7CVu9cMIZcIWm5TKbJ+SmMncIfJUbyIFNzM1vo2jCKfB5euvqhsCytALF8At26MYjcox9j2t1YzYLJuwS+T0JzEzoFPtlxq1yItkHWbU25lFwBJWE7yDA1IR1yjkFJtd+suIy8lRXXr9WL9ZMB5ry1hcCbK9h810ia4Da7VzMKvBM5SKOQYi938OSA6WEsVNTYu7eCq75vxHT9icMBagsEIKuByc57UTcfJxK4mH1W9vflidERo7ozugXsHYL94W1uEm3/Jxo3tpanhCh8aA36NevYMNLkq8Sq5D8082d9SYRRXEA/8+QQeiwKDQgiJRoaUMLGFKo0dhUU7VqTTRE0pLY1rQmdYk+qHGNy1Pb9MGosRob9+WI31KYUrY7dzoVZgB/r0xCDsy95957zkwxxHsqVdvlV2gby6KHqXU24d6ux1Cr2j59hDZxj1ODPJpy5g74VVvzBRMiNUqjFdiq7Tu0gXuBWBNoErdqa7rghEgqBtAkXtXWdLEUqVpEy20oVVuzJWVue1PrnX5ngclmLxFPHP+DvI+4htH9bDnSMIKud9dOWkLoeq6QSBr60e3cOXKMhu3E40RV9u2XlW/noMuJs+gIgREPkRewREZ82/dsH2GeoeHb9fvENbSdrUesHu0KvVGZWAuoeFkoyUKXPcUDmr3X0VbWRV/DZCJkcsyYHEPFJPOUkGaERfuuon2EiYNqZ2bWfL/Ii3C1ULKq9y4tOnoGoeHMENogmL9CFdOoM5R0eqjC0fi013f9ER64D6SJpPG+iABz9T7R3iDZ0n6JrU5kCyVzuiO8eBiAVaYSMTUzGIRZXAs6DipmE5tXyah4XSh6Db0R3jqPkmHaYs+lp2CCB8wqOwJ1sRkvkYiKc99Wvrxdhz4Hbt+AYpBqXRnO2GCoqahEjQbB5V4cw795cQhl41RP8vYYNyxtYQ+xAjDUSWKJqYGlIFpuqE8mNQIMZfWRKl8u7UYrCQnON4kwWJi4roycsqE1LCcd3G+BwR6QFikcOraQC88kI24rmjDgIR4vjLZAGvqFmEhl4gV/KJ44NaozVuuUq/fkQDzq9DqcQCwscnsqjJYkvmELsEgM31gq2pPIuGICPyqxsX3J1udr0y5e8BFPn/L5MeKzjzmjfckIE5XqPt06c5BYYRguTuqkNBSXaRun7kqkQXqALUKa/bmmYTg3qRIzKOsnTXFggjREUSOY8TKVCYNY3p9GmZ9U+EaxJSaSBr8FQA9xeaZQL+JnFt6GeP7n5ho25Yl1cFBn85XDhqJgaCdnukv9ElVEYIyNUgXmAxSCnRpdiKGGcIF4PC4oBD+pE2ehwj3iYRbeLf8LS55Dwdxj4zZUaE82aZQNPdlZaSUQlw1eeH8olew3oHBLVMfJ5PTc9ofuNtWsItvAY5v2GbvwXrup/IWKFNWKWtAoJpMar4Aqt32n9T9rwkEyjHP6fSWSDNXoCert9LTHUMslsldYoUlIXoIpLNXFhpQAgzPZSJdRj838CXSKPirz8NJTREeNncn8DgGdIiaRQo6AJ8csN4Ng9DT203cOJ5XYl8AVkBtS5hBYweG6SyzoHL1UdGxKf1u57IYayyWqyqCDWBxE3lkwuJNNhvu24mouCaKTTJPfCm0RzaUKm/kvo6MEogK2E6ItKWaEsZnfj+4TkKsbCgaT+V3oQjOkEJd0vMvQiW4kjOlLc3kiaRCqJrNz6GQRtT3tw+XjbGYJQdXqfOFtZ4cYIhoXUOvj8eI+bA0Nwm6o2K3Ucd+YGOKP9ckdTzb2AGp8LXekPoIOc9mC4jNMcu5nofDpEHYmMYpaz/5sWoYO6wWFaSPx13yhaAVNeVR+ZdlX6PDyjdIvshsmWSkUze9Hc9aKJ1q6H0OZe1OYX4VpDn0qjogfaNbx5YfQbS47CRNNZr/jP/UXWwY/uvmwUHIAAAAASUVORK5CYII="
+                            alt="">
+                        <img class="cong-content-image-right"
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMUAAABTCAMAAAAY2TOcAAABAlBMVEUAAADtj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj50b0aftj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj53tj50b0acb0acb0aftj53tj53tj53tj53/vAEb0af/vAEb0aftj50b0acb0acb0af/vAEb0af/vAEb0af/vAEb0acb0af/vAH/vAH/vAH/vAH/vAH/vAEb0af/vAEb0af4qz7/vAHtj50b0af/vAFW6jjPAAAAU3RSTlMAAvcI/RXta/IF3tfCWUnStU8sIOF86L2ml4LNuHE3EAySU5wpKCQbsY5hRfnIq6Iy5NaxnYiFdz708uBkQQtbTph5IBT56MXw4puXSEY9IpIxHhHzkVEAAAVwSURBVHja7dtpV9pAGAXgmz00gOyL7CKyKWC12s1q7b4vL/3/f6U0CBPizICVWNLj88GPntzhvZkJJ4DsSgShR0SlKsKOJvRiDeGm0x+5GELNpqn8HkLMpitqVkNo2TTn9BFWNnkUDISTTV6mpSCMbFp0MEIIZchHb9QROhm65nAHYZMhjkQa4ZIhHvV0Q4+Ir14+e/Ps0095CsZ5jA30+cmvP558WZKCGRoIELlwM98mIVzvX2GBQ0JmT8HMZqT4+GvmJTzi2CIxPYuZzUjxYZ7iGWaUZIkkKTLZ8s78w9iMFL/m3swyxCYBhCnUQl/BAT2wNExtRAr/ZxHpOUTCFCWrhokhEZnb05JvRIrFXmhWhkiUwmyMMJWdfizFFrAZKbz3qHolR1dyKPkKnY+xGYrRlN5ZunlcHr+4gxRsv6hlTZpLILpQ6O00PEY0dyAv+sV4/HA36BRs7/5xYpPHtieFOoj7rrROzKTodYjsPh2Px0/PcTfaXZsWJOcptio1XHO4WJgTQdFfPxy72FQFKF1Uyac9TWEXR+CJ0iK1mQLH0djFpio4reE++eXcC42yQvs06ZrEGWegHs5ivEOgUgWdrksAhe09CJ0SRykWgc+L47Hr7WsEqNohrm3I7RBXpnKt6Oduv4McqMdlEtiBXIoEzEdtzlRdIDDxKAmlIafpJLI/TPmn6hIB0OKNApIlEjNXeJ6VKPcRsFalrBJZOHsguwwskyepUgyBqe00p2uo1gCtq5PICZYpkpTZHCEISvU0Or/swvQGtSUrt1yFJB7sFCd/ulUFa2XECjnyOIMrklXF5ZaLk5BZiVwdeg8bZ+sKEnl8UtJ9a6XMW3IgLLdciwT0ogHAYKMVj+C20r2BTddkMadYtqDcchFBqcopuDzDag6TGv6a1u86xKO3F4ImyO8RluPe4pw4rnTJyx7E6n93Q02oJJDAopjJLbdcmTOIFhueJPmonV4NN1FPFv0rJb9Io8Art1yDfPa7NTB1nbOrly0DK3tEUjlO3ZKHnHJLWbRo4DsBHxCPHrXakDFS8d5poxB1CrB0Ylab+lqR5vJgVrzVls7gc0IiB6dpf4PT1aS13eyUDvfnA7gHJG0SawkOuA6LuYI0MTnO97Z9kjhxFy7Vj1W6hbxjih4NqjkSiUJAe6SvXm4obNlO6rz/ppKIainAUJXu/tp0qRwS6EFoND3n7mEVDk0V0jc8L26l3ALkSCI5G/Q8cdl1iEVOVSJTwSo60yGvQiBLfA3taoIl5U2wKxoSTxNSe9Hl5Wb7WiYmTlwlnlxc9uzOqj2nbBNHFXKKlcVKLLKlL4hEbN4iG5hTOiSwDa/e/vWhxLqcNduQSvBrzdQeyKrN9G3yqeDOVDi1XjRSZdVmUoe+Q4CBOzPi1NrHklabaW+R1wB3RzF9teYoSKvN1MvkEccdGizWmqfuSKvNRJo0l1Fwh6yFWvOlbHm1mawnZ3CeH73Aopan1kKxJdVmYiq59DQC85zz9f4huboaJIpLqs08Nv3P0+sPMfH0AguGrNZiWmlJtZmWu8HEEJjLsesSXj0i6hhYIm3SqiNvHBCZGoJz8XQ88RxebVZrmeSyajNahxoI0u7DWQhmkLrZI3YSyyiNFAL14ug5/k4kOqt2qLVzbrVD/S74RF93qx122Um1Q/w6+xWlTEmEn1HEvXv37v2P+vmw/lLHw9LJ2cgYu8dHWFGkSBNOG5vm659X3M6xEiNPrjzWp5qP47bO393kvbAEuaLrG6nWYB1HuuPx1DFWYTg00YxgXRo6TWRxS6/fTl80vFhxpLZIr6z1cD2hF28/UpMMR1+xKoNN8TpoDlEnhds7+r6Lfyce3bhftf8GxgHAIi+xyUgAAAAASUVORK5CYII="
+                            alt="">
+                        <div class="cong-content-logo">
+                            <svg style="background: #7367F0;" xmlns="http://www.w3.org/2000/svg" width="28px" height="28px"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="feather feather-award">
+                                <circle cx="12" cy="8" r="7"></circle>
+                                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                            </svg>
+                        </div>
+                        <h1 class="cong-content-heading">Congratulations John,</h1>
+                        <p class="cong-content-cont">You have done <b style="font-weight: 600;">57.6%</b> more sales today. Check your new badge in
+                            your
+                            profile.
+                        </p>
+                    </div>
+                    <div style="    display: flex;
+                    justify-content: space-evenly;
+                    width: 50%;" class="res-div">
+    
+                        <div class="subs-count-card card">
+                            <span style="    background: #EEEDFD;" class="subs-count-card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" color="#7367f0" width="21px" height="21px"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-users">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                            </span>
+                            <div class="subs-count-card-content">
+                                <h2 class="subs-count-card-content-number">92.6k</h2>
+                                <p class="subs-count-card-content-heading">
+                                    Subscribers Gained
+                                </p>
+                                <img style="width:100%; border-radius: 5px;    height: 88px;"
+                                    src="./images/subscriber_gain.png" alt="">
+                            </div>
+                        </div>
+                        <div class="order-recieved-card card">
+                            <span style="background-color: #FFF3E8;" class="subs-count-card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" color=" #FF9F45" width="21px" height="21px"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-package">
+                                    <line x1="16.5" y1="9.4" x2="7.5" y2="4.21"></line>
+                                    <path
+                                        d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                                    </path>
+                                    <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                    <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                                </svg>
+                            </span>
+                            <div class="subs-count-card-content">
+                                <h2 class="subs-count-card-content-number">38.4k</h2>
+                                <p class="subs-count-card-content-heading">
+                                    Orders Received
+                                </p>
+                                <img style="width:100%; border-radius: 5px; height: 84px;" src="./images/order_received.png"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="main-content-bottom-1">
+                    <div class="main-content-bottom-1-left card">
+                        <div class="main-content-bottom-1-left-top">
+                            <div class="main-content-bottom-1-left-top-left">
+                                <h2 class="content-number">2.7k</h2>
+                                <span class="avg-session-title">Avg Sessions</span>
+                                <div class="inc-7-days">
+                                    <div class="inc">+5.2%</div>
+                                    <p class="inc-text">vs last 7 days</p>
+                                </div>
+                                <button class="details-btn">View Details<svg xmlns="http://www.w3.org/2000/svg" width="14px"
+                                        height="14px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"
+                                        class="feather feather-chevrons-right">
+                                        <polyline points="13 17 18 12 13 7"></polyline>
+                                        <polyline points="6 17 11 12 6 7"></polyline>
+                                    </svg></button>
+                            </div>
+                            <div class="main-content-bottom-1-left-top-right">
+                                <div style="    padding-top: 15px;" class="main-content-bottom-1-left-top-right-days">
+                                    Last 7 Days
+                                </div>
+                                <img class="main-content-bottom-1-left-top-right-image"
+                                    src="./images/Screenshot from 2022-03-09 13-55-37.png" alt="">
+                            </div>
+    
+                        </div>
+                        <p class="box-line"></p>
+                        <div class="main-content-bottom-1-left-bottom">
+                            <div class="main-content-bottom-1-left-bottom-content">
+                                <div class="main-content-bottom-1-left-bottom-content-left">
+                                    <div class="goal">
+                                        <p class="goal-name">Goal: $100000</p>
+                                        <img style="    width: 100%;
+                                        margin-top: 5px;" src="./images/goal.png" alt="">
+                                    </div>
+                                    <div class="retention">
+                                        <p class="retention-name">Retention: 90%</p>
+                                        <img style="    width: 100%;
+                                        margin-top: 5px;" src="./images/retention.png" alt="">
+                                    </div>
+                                </div>
+    
+                                <div class="main-content-bottom-1-left-bottom-content-right">
+                                    <div class="user">
+                                        <p class="user-name">Users: 100.0k</p>
+                                        <img style="    width: 100%;
+                                        margin-top: 5px;" src="./images/user.png" alt="">
+                                    </div>
+                                    <div class="duration">
+                                        <p class="duration-name">Duration: 1yr</p>
+                                        <img style="    width: 100%;
+                                        margin-top: 5px;" src="./images/duration.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-content-bottom-1-right card">
+                        <div class="mcbr-left">
+                            <div class="mcbr-left-top">
+                                <h2 class="support-tracker-head">Support Tracker</h2>
+                                <p class="main-content-bottom-1-left-top-right-days">Last 7 Days</p>
+                            </div>
+                            <div class="mcbr-left-middle">
+                                <div class="mcbr-left-middle-left">
+                                    <h1 class="support-tracker-num">163</h1>
+                                    <p class="tickets">Tickets</p>
+                                </div>
+                                <div class="mcbr-left-middle-right">
+                                    <img class="support-tracker-img" src="./images/support_tracker.png" alt="">
+                                </div>
+                            </div>
+                            <div class="mcbr-right-right-bottom">
+                                <div>
+                                    <p style="    background: white;
+                                    color: #5E5873;
+                                    /* margin-left: 28px; */
+                                    width: 100%;
+                                    font-size: 0.9rem;
+                                    text-align: center;">New Tickets</p>
+                                    <p class="for-res">29</p>
+                                </div>
+                                <div>
+                                    <p style="     background: white;
+                                    color: #5E5873;
+                                    /* margin-left: 28px; */
+                                    width: 100%;
+                                    font-size: 0.9rem;
+                                    text-align: center;">Open Ticket</p>
+                                    <p class="for-res">63</p>
+                                </div>
+                                <div>
+                                    <p style="    background: white;
+                                    color: #5E5873;
+                                    /* margin-left: 28px; */
+                                    width: 100%;
+                                    font-size: 0.9rem;
+                                    text-align: center;">Response Time</p>
+                                    <p class="for-res">1d</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="main-content-bottom-2">
+                    <div class="mcb-2-left card">
+                        <h4 class="mcb-2-left-heading">User Timeline</h4>
+                        <div class="mcb-2-left-main">
+                            <div style="
+                            background: white;">
+                                <div style="box-shadow: 0px 0px 0px 5px rgb(115 103 240 / 12%);" class="first-dot"></div>
+                                <div class="mcb-2-1">
+                                    <h5 class="mcb-2-1-heading">12 Invoices have been paid</h5>
+                                    <small style="background: white;
+                                    color: #bdbaba;font-size: 11.998px;">12 min ago</small>
+                                </div>
+                                <p class="mcb-2-1-desc">Invoices have been paid to the company.</p>
+                                <div style="display: flex;
+                                margin-left: 38px;
+                                background: white;
+                                margin-top: 12px;
+                                height: 25px;">
+                                    <img style="    height: 23px;
+                                    width: 21px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAkCAMAAAAw96PuAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIaADAAQAAAABAAAAJAAAAADeoA9wAAABcVBMVEUAAAD/qlX/qlX/n2D/qlX/n1D/pUv/qkf/oUP/pk3/qkn/okb/o0f/okT/n0j/oEn/n0b/pEn/oEf/okb/oUj/o0f/n0X/oUT/o0f/oEb/pEP/okb/n0T/okT/oEb/n0T/oEX/o0b/n0P/oUP/okb/oUT/n0b/oUX/oET/oUb/n0X/oET/oUP/oEX/okT/oEP/oUX/oUP/oET/oUX/oEX/n0T/oEX/oET/oEX/n0T/oET/n0P/oEX/n0P/oUT/n0T/oEX/oUT/oET/oEP/oET/oUT/oEP/oEP/oET/oEP/oEP/oET/n0T/oET/oEP/n0T/oET/n0T/n0T/oET/n0T/n0P/oET/n0P/oET/n0T/oEP/oET/oET/n0T/n0T/oEP/oEP/n0P/oET/n0P/n0T/n0T/n0P/oEP/n0T/oEP/n0P/oET/n0T/oEP/oET/n0T/oET/oEP/n0T/oEP/oET/n0P/oEP/oET/n0T/oEP/n0NWaDR5AAAAenRSTlMAAwYICRAREhMUFRYZHiAjKCorLC4vMDEyMzU3ODw+QENFSExNT1BRU1RVVldZWltcX2Zna21zdHZ4e31+hYeIkZKTlJmam5yen6OkpaanqKmtsLG4ury9v8DBw8fIytHU1dfY2t3g5OXn6Onq6+zt7u/w8/n6+/z9/jLTlDYAAAE3SURBVDjL7dRHUwIxFMDxZ0OsIAoqtijqYhcVCxZQZO0iWLAXYC0IsqIivE/vRh2GLLs5evJ/yLyZ/CaHzCQAAAbxAZmezMBUfoPqEk2McGFpz5Zi4VPtyjllSTYXiYBKRCYpSbVwBIx/UmLlCBij5MXGETCaVYZ0G0fAMCVyO0eA80MZX+0cAQIlmVaOgAFK5rREbOq3sJ5g+hcaQvweTyOYCPjjiMf+c2XZyeP+PSsER6rW2ruNQzWDlW4ksIlVB2pxBnuIR3CCqxAjlvo3Y4nITgCRlsve8RZCxGP2NgRZ0S8gXpuc6xDFEFyRhWBdI3NGdM2wKC1tmEbSxr5dmz1H5vMdwIhw13TmTuh2JzHu6pmV0bOFl46Lv71TH0/M6P0OhTp1fphChz8Po1p81N6XVioAvgBZgp3AxW+3KgAAAABJRU5ErkJggg=="
+                                        alt="">
+                                    <p style="    background: white;
+                                    margin-left: 17px;
+                                    color: #756f87;
+                                    margin-top: 6px;
+                                    font-size: 0.9rem;
+                                    font-weight: 500;">data.json</p>
+                                </div>
+                            </div>
+                            <div style="
+                            background: white; margin-top: 28px;">
+                                <div class="first-dot" style="background: #FF9F43 !important;box-shadow: 0px 0px 0px 5px rgb(255 159 67 / 12%);"></div>
+                                <div class="mcb-2-1">
+                                    <h5 class="mcb-2-1-heading">Client Meeting</h5>
+                                    <small style="background: white;
+                                    color: #bdbaba;font-size: 11.998px;">45 min ago</small>
+                                </div>
+                                <p class="mcb-2-1-desc">Project meeting with john @10:15am</p>
+                                <div style="display: flex;
+                                margin-left: 41px;
+                                background: white;
+                                margin-top: 4px;
+                                height: 46px; align-items: center;">
+                                    <img class="mcb-2-1-image"
+                                        src="https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/demo-1/img/avatar-s-9.397f0acd.jpg"
+                                        alt="">
+                                    <p style="background: white;
+                                    margin-left: 10px;
+                                    color: #625C76;
+                                    font-size: 14px;
+                                    font-weight: 500;">
+                                        John Doe (Client)</p>
+                                </div>
+                            </div>
+                            <div style="
+                            background: white; margin-top: 26px;">
+                                <div class="first-dot" style="background: #00CFE8 !important;    box-shadow: 0px 0px 0px 5px rgb(0 207 232 / 12%);"></div>
+                                <div class="mcb-2-1">
+                                    <h5 class="mcb-2-1-heading">Create a new project for client</h5>
+                                    <small style="background: white;
+                                    color: #bdbaba;font-size: 11.998px;">2 day ago</small>
+                                </div>
+                                <p class="mcb-2-1-desc">Add files to new design folder.</p>
+                                <div style="display: flex;
+                                margin-left: 27px;
+                                background: white;
+                                margin-top: 4px;
+                                height: 46px;">
+                                    <img style="border-radius: 10px;
+                                    width: 125px;
+                                    object-fit: contain;
+                                    background: white;" src="./images/new_proj_img.png" alt="">
+    
+                                </div>
+                            </div>
+                            <div style="
+                            background: white; margin-top: 19px;">
+                                <div class="first-dot" style="background: #EA5455 !important;    box-shadow: 0px 0px 0px 5px rgb(234 84 85 / 12%);"></div>
+                                <div class="mcb-2-1">
+                                    <h5 class="mcb-2-1-heading">Create a new project for client</h5>
+                                    <small style="background: white;
+                                    color: #bdbaba;font-size: 11.998px;">5 day ago</small>
+                                </div>
+                                <p class="mcb-2-1-desc">Add files to new design folder</p>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mcb-2-mid card">
+                        <div class="mcb-2-mid-header">
+                            <div class="mcb-2-mid-header-left">
+                                <h2 style="    background: white;
+                                color: #5e5873;
+                                font-size: 17.99px;
+                                font-weight: 500;">Sales</h2>
+                                <p style="
+                                    background: white;
+        color: #78767e;
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 2px;">Last 6 months
+                                </p>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" color="#808080" width="18px" height="18px"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="text-body cursor-pointer feather feather-more-vertical">
+                                <circle cx="12" cy="12" r="1"></circle>
+                                <circle cx="12" cy="5" r="1"></circle>
+                                <circle cx="12" cy="19" r="1"></circle>
+                            </svg>
+                        </div>
+                        <div class="mcb-2-mid-mid">
+                            <div class="mcb-2-mid-mid-left">
+                                <svg xmlns="http://www.w3.org/2000/svg" color="#867DF1" font-size="1.2rem" width="14px"
+                                    height="14px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="text-primary mr-50 feather feather-circle">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                </svg>
+                                <p style="    background: white;
+                                color: #6e6b7b;
+                                margin-left: 5px;
+                                font-size: 14px;">Sales</p>
+                            </div>
+                            <div class="mcb-2-mid-mid-right">
+                                <svg xmlns="http://www.w3.org/2000/svg" color="#00CFE8" font-size="1.2rem" width="14px"
+                                    height="14px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="text-primary mr-50 feather feather-circle">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                </svg>
+                                <p style="    background: white;
+                                color: #6e6b7b;
+                                margin-left: 5px;
+                                font-size: 14px;">Visits</p>
+                            </div>
+                        </div>
+                        <img style="     /* margin-top: 35px; */
+                        /* margin-left: 13px; */
+                        padding: 10px;
+                        width: 100%;
+                        height: 292px;
+                        object-fit: contain;
+                        background: white;" src="./images/sales.png" alt="">
+                    </div>
+                    <div class="mcb-2-right card">
+                        <span class="mcb-2-right-date">03 sep, 20</span>
+                        <h3 class="mcb-2-right-title">
+                            App design</h3>
+                        <p style="    line-height: 20px;
+                        background: white;
+                        font-size: 0.76rem;
+                        color: #6e6b7b;">You can Find
+                            Only
+                            Post and Quotes Related to IOS like ipad app design, iphone app design</p>
+                        <div class="team">
+                            <h3 style="background: white;
+                            font-weight: 500;
+                            color: #b9b9c3;
+                            letter-spacing: 0.6px;
+                            font-size: 11.9px;">TEAM</h3>
+                            <div class="inter-team">
+                                <span style="pdisplay: inline-block;
+                                padding: 5px;
+                                border-radius: 4px;
+                                font-size: 12px;
+                                background: #FFF3E8;
+                                color: orange;
+                                height: 24px;
+                                font-weight: 600;">Figma</span>
+                                <span style="display: inline-block;
+                                padding: 5px;
+                                border-radius: 4px;
+                                font-size: 12px;
+                                background: #EEEDFD;
+                                color: #7367F0;
+                                margin-left: 10px;
+                                font-weight: 600;height: 24px;">Wireframe</span>
+                            </div>
+                            <h3 style="background: white;
+                            font-weight: 500;
+                            color: #b9b9c3;
+                            font-size: 11.9px;
+                            margin-top: 28px;
+                            letter-spacing: 0.6px;">MEMBERS</h3>
+                            <img style="    margin-left: -8px;
+                            width: 228px;
+                            margin-top: 2px;
+                            object-fit: contain;" src="./images/avatar.png" alt="">
+                        </div>
+                        <div class="due-date">
+                            <div class="due-date-name">
+                                <p>Due Date</p>
+                                <h3>12 Apr,21</h3>
+                            </div>
+                            <div class="due-date-name">
+                                <p>Budget</p>
+                                <h3>$49251.91</h3>
+                            </div>
+                            <div class="due-date-name">
+                                <p>Cost</p>
+                                <h3>$840.99</h3>
+                            </div>
+                        </div>
+                        <button class="join-team-btn">Join Team</button>
+                    </div>
+                </section>
+                <section class="main-content-bottom card">
+                    <div class="top-table">
+                        <div class="top-table-1">
+                            <div class="top-table-left">
+                                <p class="top-table-left-title">Entries</p>
+                                <div class="inner-top-table-left">
+                                    <select id="selectNumber">
+                                        <option value="1">10</option>
+                                        <option value="2">25</option>
+                                        <option value="3">50</option>
+                                        <option value="3">100</option>
+                                    </select>
+                                    <button class="top-table-left-search">Add Records</button>
+    
+                                </div>
+                            </div>
+                            <div class="top-table-right">
+                                <input class="top-table-right-search-bar" placeholder="Search ..."></input>
+                                <select id="selectNumber1">
+                                    <option value="1">Select Status</option>
+                                    <option value="2">Download</option>
+                                    <option value="3">Draft</option>
+                                    <option value="3">Paid</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-div">
+                        <table width="100%" border="0" style="border-collapse:collapse" cellpadding="0" class="lower-table">
+                            <thead class="head-row">
+                                <tr>
+                                    <th aria-sort="descending" role="columnheader">
+                                        <div>
+                                            #
+                                        </div>
+                                    </th>
+                                    <th role="columnheader">
+                                        <div style="margin-left: 10px;">
+                                                <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" background="#F3F3F3" color="#808080" width="14px" height="14px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-auto feather feather-trending-up"><polyline data-v-9a6e255c="" points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline data-v-9a6e255c="" points="17 6 23 6 23 12"></polyline></svg>
+                                        </div>
+                                    </th>
+                                    <th role="columnheader">
+                                        <div style="display: flex;
+                                    align-items: center;
+                                    justify-content: flex-start !important;
+                                    padding-left: 117px;">
+                                            CLIENT
+                                        </div>
+                                    </th>
+                                    <th role="columnheader">
+                                        <div>
+                                            TOTAL
+                                        </div>
+                                    </th>
+                                    <th role="columnheader">
+                                        <div>ISSUE DATE</div>
+                                    </th>
+                                    <th role="columnheader">
+                                        <div>BALANCE</div>
+                                    </th>
+                                    <th role="columnheader">
+                                        <div style="margin-left:-5px;">ACTIONS</div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="lower-table-datas">
+                                    <td style="width: 110px;">
+                                        <div style="color: blue;
+        width: 101px;
+        margin: auto;
+        text-align: center;">#5036</div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <div style="    height: 36px;
+                                        width: 36px;
+                                        background: #E5F8ED;
+                                        border-radius: 62px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        margin-left: 15px;">
+                                                <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" background="none" font-size="1.2rem" color="#33CB77"  width="14px" height="14px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle"><path data-v-9a6e255c="" d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline data-v-9a6e255c="" points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                            </div>
+    
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div style="    display: flex;
+        align-items: center;
+        justify-content: flex-start !important;
+        padding-left: 46px;">
+                                            <img style="height: 36px;
+        border-radius: 23px;"
+                                                src="https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/demo-1/img/9-small.30df7a62.png"
+                                                alt="">
+                                            <div style="    margin-left: 9px;">
+                                                <h3 class="table-name">Andrew Burns</h3>
+                                                <p class="table-email">pwillis@cross.org</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>$3171</div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            19 Apr 2019
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>-$205</div>
+                                    </td>
+                                    <td style="    width: 181px;;">
+                                        <div style=" display: flex;
+        align-items: center;
+        width: 116px;
+        margin-left: 30px;
+        justify-content: space-evenly;">
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" color="#808080" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="invoice-row-5036-send-icon" class="cursor-pointer feather feather-send"><line data-v-9a6e255c="" x1="22" y1="2" x2="11" y2="13"></line><polygon data-v-9a6e255c="" points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="invoice-row-5036-preview-icon" class="mx-1 feather feather-eye"><path data-v-9a6e255c="" d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle data-v-9a6e255c="" cx="12" cy="12" r="3"></circle></svg>
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="align-middle text-body feather feather-more-vertical"><circle data-v-9a6e255c="" cx="12" cy="12" r="1"></circle><circle data-v-9a6e255c="" cx="12" cy="5" r="1"></circle><circle data-v-9a6e255c="" cx="12" cy="19" r="1"></circle></svg>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="lower-table-datas">
+                                    <td>
+                                        <div style="color: blue;
+        width: 101px;
+        margin: auto;
+        text-align: center;">#5035</div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <div style="    height: 36px;
+                                        width: 36px;
+                                        background: #EEEDFD;
+                                        border-radius: 62px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        margin-left: 15px;">
+                                                <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" color="#7367F0" width="14px" height="14px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-save"><path data-v-9a6e255c="" d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline data-v-9a6e255c="" points="17 21 17 13 7 13 7 21"></polyline><polyline data-v-9a6e255c="" points="7 3 7 8 15 8"></polyline></svg>
+                                            </div>
+    
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div style="    display: flex;
+        align-items: center;
+        justify-content: flex-start !important;
+        padding-left: 46px;">
+                                            <div style="height: 36px;
+                                            border-radius: 23px;
+                                            width: 36px;
+                                            background: #FFF3E8;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            color: #FF9F43;
+                                            font-size: 0.8rem;
+                                            font-weight: bolder;">
+                                                <p>DC</p>
+                                            </div>
+                                            <div style="    margin-left: 9px;">
+                                                <h3 class="table-name">Dana Carey</h3>
+                                                <p class="table-email">jamesjoel@chapman.net</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>$4263</div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            20 Jul 2019
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>$762</div>
+                                    </td>
+                                    <td>
+                                        <div style=" display: flex;
+        align-items: center;
+        width: 116px;
+        margin-left: 30px;
+        justify-content: space-evenly;">
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" color="#808080" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="invoice-row-5036-send-icon" class="cursor-pointer feather feather-send"><line data-v-9a6e255c="" x1="22" y1="2" x2="11" y2="13"></line><polygon data-v-9a6e255c="" points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="invoice-row-5036-preview-icon" class="mx-1 feather feather-eye"><path data-v-9a6e255c="" d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle data-v-9a6e255c="" cx="12" cy="12" r="3"></circle></svg>
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="align-middle text-body feather feather-more-vertical"><circle data-v-9a6e255c="" cx="12" cy="12" r="1"></circle><circle data-v-9a6e255c="" cx="12" cy="5" r="1"></circle><circle data-v-9a6e255c="" cx="12" cy="19" r="1"></circle></svg>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="lower-table-datas">
+                                    <td>
+                                        <div style="color: blue;
+        width: 101px;
+        margin: auto;
+        text-align: center;">#5034</div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <div style="    height: 36px;
+                                        width: 36px;
+                                        background: #E5F8ED;
+                                        border-radius: 62px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        margin-left: 15px;">
+                                                <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" background="none" font-size="1.2rem" color="#33CB77"  width="14px" height="14px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle"><path data-v-9a6e255c="" d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline data-v-9a6e255c="" points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                            </div>
+    
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div style="    display: flex;
+        align-items: center;
+        justify-content: flex-start !important;
+        padding-left: 46px;">
+                                            <div style="height: 36px;
+                                            border-radius: 23px;
+                                            width: 36px;
+                                            background: #FCEAEA;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            color: #EB5D5E;
+                                            font-size: 0.8rem;
+                                            font-weight: bolder;">
+                                                <p>TS</p>
+                                            </div>
+                                            <div style="   margin-left: 9px;
+                                        background: white;">
+                                                <h3 class="table-name">Tammy Sanchez</h3>
+                                                <p class="table-email">eric47@george-castillo.com</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>$4836</div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            10 Jul 2019
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div style="display: flex;
+                                    align-items: center;
+                                    justify-content: center;">
+                                            <div style="    width: 41px;
+        font-size: 0.8rem;
+        font-weight: 700;
+        border-radius: 21px;
+        background: #E5F8ED;
+        color: #33CB77;
+        display: flex;
+        align-items: center;
+        justify-content: center;">
+                                                Paid
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div style=" display: flex;
+        align-items: center;
+        width: 116px;
+        margin-left: 30px;
+        justify-content: space-evenly;">
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" color="#808080" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="invoice-row-5036-send-icon" class="cursor-pointer feather feather-send"><line data-v-9a6e255c="" x1="22" y1="2" x2="11" y2="13"></line><polygon data-v-9a6e255c="" points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="invoice-row-5036-preview-icon" class="mx-1 feather feather-eye"><path data-v-9a6e255c="" d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle data-v-9a6e255c="" cx="12" cy="12" r="3"></circle></svg>
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="align-middle text-body feather feather-more-vertical"><circle data-v-9a6e255c="" cx="12" cy="12" r="1"></circle><circle data-v-9a6e255c="" cx="12" cy="5" r="1"></circle><circle data-v-9a6e255c="" cx="12" cy="19" r="1"></circle></svg>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="lower-table-datas">
+                                    <td>
+                                        <div style="color: blue;
+        width: 101px;
+        margin: auto;
+        text-align: center;">#5033</div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <div style="    height: 36px;
+                                        width: 36px;
+                                        background: #FFF3E8;
+                                        border-radius: 62px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        margin-left: 15px;">
+                                                <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" color="#FF9F43" width="14px" height="14px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-pie-chart"><path data-v-9a6e255c="" d="M21.21 15.89A10 10 0 1 1 8 2.83"></path><path data-v-9a6e255c="" d="M22 12A10 10 0 0 0 12 2v10z"></path></svg>
+                                            </div>
+    
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div style="    display: flex;
+        align-items: center;
+        justify-content: flex-start !important;
+        padding-left: 46px;">
+                                            <img style="height: 36px;
+        border-radius: 23px;"
+                                                src="https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/demo-1/img/1-small.1b74d2ba.png"
+                                                alt="">
+                                            <div style="    margin-left: 9px;">
+                                                <h3 class="table-name">Lori Wells</h3>
+                                                <p class="table-email">calvin07@joseph-edwards.org</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>$2869</div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            12 Jul 2019
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div style="display: flex;
+                                    align-items: center;
+                                    justify-content: center;">
+                                            <div style="    width: 41px;
+        font-size: 0.8rem;
+        font-weight: 700;
+        border-radius: 21px;
+        background: #E5F8ED;
+        color: #33CB77;
+        display: flex;
+        align-items: center;
+        justify-content: center;">
+                                                Paid
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div style=" display: flex;
+        align-items: center;
+        width: 116px;
+        margin-left: 30px;
+        justify-content: space-evenly;">
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" color="#808080" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="invoice-row-5036-send-icon" class="cursor-pointer feather feather-send"><line data-v-9a6e255c="" x1="22" y1="2" x2="11" y2="13"></line><polygon data-v-9a6e255c="" points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="invoice-row-5036-preview-icon" class="mx-1 feather feather-eye"><path data-v-9a6e255c="" d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle data-v-9a6e255c="" cx="12" cy="12" r="3"></circle></svg>
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="align-middle text-body feather feather-more-vertical"><circle data-v-9a6e255c="" cx="12" cy="12" r="1"></circle><circle data-v-9a6e255c="" cx="12" cy="5" r="1"></circle><circle data-v-9a6e255c="" cx="12" cy="19" r="1"></circle></svg>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="lower-table-datas">
+                                    <td>
+                                        <div style="color: blue;
+        width: 101px;
+        margin: auto;
+        text-align: center;">#5032</div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <div style="    height: 36px;
+                                        width: 36px;
+                                        background: #FCEAEA;
+                                        border-radius: 62px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        margin-left: 15px;">
+                                                <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" color="#EA5455" width="14px" height="14px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info"><circle data-v-9a6e255c="" cx="12" cy="12" r="10"></circle><line data-v-9a6e255c="" x1="12" y1="16" x2="12" y2="12"></line><line data-v-9a6e255c="" x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                                            </div>
+    
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div style="    display: flex;
+        align-items: center;
+        justify-content: flex-start !important;
+        padding-left: 46px;">
+                                            <div style="height: 36px;
+                                            border-radius: 23px;
+                                            width: 36px;
+                                            background: #E5F8ED;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            color: #28C76F;
+                                            font-size: 0.8rem;
+                                            font-weight: bolder;">
+                                                <p>RP</p>
+                                            </div>
+                                            <div style="    margin-left: 9px;">
+                                                <h3 class="table-name">Richard Payne</h3>
+                                                <p class="table-email">ywagner@jones.com</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>$5181</div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            31 May 2019
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div style="display: flex;
+                                    align-items: center;
+                                    justify-content: center;">
+                                            <div style="    width: 41px;
+                                            font-size: 0.8rem;
+                                            font-weight: 700;
+                                            border-radius: 21px;
+                                            background: #E5F8ED;
+                                            color: #33CB77;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;">
+                                                Paid
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div style=" display: flex;
+        align-items: center;
+        width: 116px;
+        margin-left: 30px;
+        justify-content: space-evenly;">
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" color="#808080" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="invoice-row-5036-send-icon" class="cursor-pointer feather feather-send"><line data-v-9a6e255c="" x1="22" y1="2" x2="11" y2="13"></line><polygon data-v-9a6e255c="" points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="invoice-row-5036-preview-icon" class="mx-1 feather feather-eye"><path data-v-9a6e255c="" d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle data-v-9a6e255c="" cx="12" cy="12" r="3"></circle></svg>
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="align-middle text-body feather feather-more-vertical"><circle data-v-9a6e255c="" cx="12" cy="12" r="1"></circle><circle data-v-9a6e255c="" cx="12" cy="5" r="1"></circle><circle data-v-9a6e255c="" cx="12" cy="19" r="1"></circle></svg>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="lower-table-datas">
+                                    <td>
+                                        <div style="color: blue;
+        width: 101px;
+        margin: auto;
+        text-align: center;">#5031</div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <div style="    height: 36px;
+                                        width: 36px;
+                                        background: #FFF3E8;
+                                        border-radius: 62px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        margin-left: 15px;">
+                                                <svg data-v-9a6e255c="" color="#FF9F43" xmlns="http://www.w3.org/2000/svg" width="14px" height="14px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-pie-chart"><path data-v-9a6e255c="" d="M21.21 15.89A10 10 0 1 1 8 2.83"></path><path data-v-9a6e255c="" d="M22 12A10 10 0 0 0 12 2v10z"></path></svg>
+                                            </div>
+    
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div style="    display: flex;
+        align-items: center;
+        justify-content: flex-start !important;
+        padding-left: 46px;">
+                                            <img style="height: 36px;
+        border-radius: 23px;"
+                                                src="https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/demo-1/img/3-small.33d29f56.png"
+                                                alt="">
+                                            <div style="    margin-left: 9px;">
+                                                <h3 class="table-name">Jennifer Summers</h3>
+                                                <p class="table-email">john77@anderson.net</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>$3313</div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            21 Aug 2019
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div style="display: flex;
+                                    align-items: center;
+                                    justify-content: center;">
+                                            <div style="    width: 41px;
+                                            font-size: 0.8rem;
+                                            font-weight: 700;
+                                            border-radius: 21px;
+                                            background: #E5F8ED;
+                                            color: #33CB77;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;">
+                                                Paid
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div style=" display: flex;
+        align-items: center;
+        width: 116px;
+        margin-left: 30px;
+        justify-content: space-evenly;">
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" color="#808080" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="invoice-row-5036-send-icon" class="cursor-pointer feather feather-send"><line data-v-9a6e255c="" x1="22" y1="2" x2="11" y2="13"></line><polygon data-v-9a6e255c="" points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="invoice-row-5036-preview-icon" class="mx-1 feather feather-eye"><path data-v-9a6e255c="" d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle data-v-9a6e255c="" cx="12" cy="12" r="3"></circle></svg>
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="align-middle text-body feather feather-more-vertical"><circle data-v-9a6e255c="" cx="12" cy="12" r="1"></circle><circle data-v-9a6e255c="" cx="12" cy="5" r="1"></circle><circle data-v-9a6e255c="" cx="12" cy="19" r="1"></circle></svg>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="lower-table-datas">
+                                    <td>
+                                        <div style="color: blue;
+        width: 101px;
+        margin: auto;
+        text-align: center;">#5030</div>
+                                    </td>
+                                    <td>
+                                        <div>
+    
+                                            <div style="    height: 36px;
+                                        width: 36px;
+                                        background: #EEEDFD;
+                                        border-radius: 62px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        margin-left: 15px;">
+                                                <svg data-v-9a6e255c="" color="#9289F4" xmlns="http://www.w3.org/2000/svg" width="14px" height="14px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-save"><path data-v-9a6e255c="" d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline data-v-9a6e255c="" points="17 21 17 13 7 13 7 21"></polyline><polyline data-v-9a6e255c="" points="7 3 7 8 15 8"></polyline></svg>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div style="    display: flex;
+        align-items: center;
+        justify-content: flex-start !important;
+        padding-left: 46px;">
+                                            <div style="height: 36px;
+                                            border-radius: 23px;
+                                            width: 36px;
+                                            background: #FFF3E8;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            color: #FFAD60;
+                                            font-size: 0.8rem;
+                                            font-weight: bolder;">
+                                                <p>MJR</p>
+                                            </div>
+                                            <div style="    margin-left: 9px;">
+                                                <h3 class="table-name">Mr. Justin Richardson</h3>
+                                                <p class="table-email">jeffrey25@martinez-hodge.com</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>$5565</div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            07 Apr 2019
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div style="display: flex;
+                                    align-items: center;
+                                    justify-content: center;">
+                                            <div style="    width: 41px;
+                                            font-size: 0.8rem;
+                                            font-weight: 700;
+                                            border-radius: 21px;
+                                            background: #E5F8ED;
+                                            color: #33CB77;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;">
+                                                Paid
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div style=" display: flex;
+        align-items: center;
+        width: 116px;
+        margin-left: 30px;
+        justify-content: space-evenly;">
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" color="#808080" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="invoice-row-5036-send-icon" class="cursor-pointer feather feather-send"><line data-v-9a6e255c="" x1="22" y1="2" x2="11" y2="13"></line><polygon data-v-9a6e255c="" points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="invoice-row-5036-preview-icon" class="mx-1 feather feather-eye"><path data-v-9a6e255c="" d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle data-v-9a6e255c="" cx="12" cy="12" r="3"></circle></svg>
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="align-middle text-body feather feather-more-vertical"><circle data-v-9a6e255c="" cx="12" cy="12" r="1"></circle><circle data-v-9a6e255c="" cx="12" cy="5" r="1"></circle><circle data-v-9a6e255c="" cx="12" cy="19" r="1"></circle></svg>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="lower-table-datas">
+                                    <td>
+                                        <div style="color: blue;
+        width: 101px;
+        margin: auto;
+        text-align: center;">#5029</div>
+                                    </td>
+                                    <td>
+                                        <div>
+    
+                                            <div style="    height: 36px;
+                                        width: 36px;
+                                        background: #E5F8ED;
+                                        border-radius: 62px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        margin-left: 15px;">
+                                                <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" background="none" font-size="1.2rem" color="#33CB77"  width="14px" height="14px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle"><path data-v-9a6e255c="" d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline data-v-9a6e255c="" points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div style="    display: flex;
+        align-items: center;
+        justify-content: flex-start !important;
+        padding-left: 46px;">
+                                            <div style="height: 36px;
+                                            border-radius: 23px;
+                                            width: 36px;
+                                            background: #FCEAEA;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            color: #EC6364;
+                                            font-size: 0.8rem;
+                                            font-weight: bolder;">
+                                                <p>NT</p>
+                                            </div>
+                                            <div style="    margin-left: 9px;">
+                                                <h3 class="table-name">Nicholas Tanner</h3>
+                                                <p class="table-email">desiree61@kelly.com</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>$3851</div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            29 Oct 2019
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div style="display: flex;
+                                    align-items: center;
+                                    justify-content: center;">
+                                            <div style="    width: 41px;
+                                            font-size: 0.8rem;
+                                            font-weight: 700;
+                                            border-radius: 21px;
+                                            background: #E5F8ED;
+                                            color: #33CB77;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;">
+                                                Paid
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div style=" display: flex;
+        align-items: center;
+        width: 116px;
+        margin-left: 30px;
+        justify-content: space-evenly;">
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" color="#808080" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="invoice-row-5036-send-icon" class="cursor-pointer feather feather-send"><line data-v-9a6e255c="" x1="22" y1="2" x2="11" y2="13"></line><polygon data-v-9a6e255c="" points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="invoice-row-5036-preview-icon" class="mx-1 feather feather-eye"><path data-v-9a6e255c="" d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle data-v-9a6e255c="" cx="12" cy="12" r="3"></circle></svg>
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="align-middle text-body feather feather-more-vertical"><circle data-v-9a6e255c="" cx="12" cy="12" r="1"></circle><circle data-v-9a6e255c="" cx="12" cy="5" r="1"></circle><circle data-v-9a6e255c="" cx="12" cy="19" r="1"></circle></svg>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="lower-table-datas">
+                                    <td>
+                                        <div style="color: blue;
+        width: 101px;
+        margin: auto;
+        text-align: center;">#5028</div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <div style="    height: 36px;
+                                        width: 36px;
+                                        background: #E5F8ED;
+                                        border-radius: 62px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        margin-left: 15px;">
+                                                <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" background="none" font-size="1.2rem" color="#33CB77"  width="14px" height="14px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle"><path data-v-9a6e255c="" d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline data-v-9a6e255c="" points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                            </div>
+    
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div style="    display: flex;
+        align-items: center;
+        justify-content: flex-start !important;
+        padding-left: 46px;">
+                                            <div style="height: 36px;
+                                            border-radius: 23px;
+                                            width: 36px;
+                                            background: #FCEAEA;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            color: #EC6364;
+                                            font-size: 0.8rem;
+                                            font-weight: bolder;">
+                                                <p>CM</p>
+                                            </div>
+                                            <div style="    margin-left: 9px;">
+                                                <h3 class="table-name">Crystal Mays</h3>
+                                                <p class="table-email">robertscott@garcia.com</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>$3325</div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            18 May 2019
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>$361</div>
+                                    </td>
+                                    <td>
+                                        <div style=" display: flex;
+        align-items: center;
+        width: 116px;
+        margin-left: 30px;
+        justify-content: space-evenly;">
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" color="#808080" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="invoice-row-5036-send-icon" class="cursor-pointer feather feather-send"><line data-v-9a6e255c="" x1="22" y1="2" x2="11" y2="13"></line><polygon data-v-9a6e255c="" points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="invoice-row-5036-preview-icon" class="mx-1 feather feather-eye"><path data-v-9a6e255c="" d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle data-v-9a6e255c="" cx="12" cy="12" r="3"></circle></svg>
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="align-middle text-body feather feather-more-vertical"><circle data-v-9a6e255c="" cx="12" cy="12" r="1"></circle><circle data-v-9a6e255c="" cx="12" cy="5" r="1"></circle><circle data-v-9a6e255c="" cx="12" cy="19" r="1"></circle></svg>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="lower-table-datas">
+                                    <td>
+                                        <div style="color: blue;
+        width: 101px;
+        margin: auto;
+        text-align: center;">#5027</div>
+                                    </td>
+                                    <td>
+                                        <div>
+    
+                                            <div style="    height: 36px;
+                                        width: 36px;
+                                        background: #F0F0F1;
+                                        border-radius: 62px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        margin-left: 15px;">
+                                                <svg data-v-9a6e255c=""  xmlns="http://www.w3.org/2000/svg" width="14px" height="14px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-send"><line data-v-9a6e255c="" x1="22" y1="2" x2="11" y2="13"></line><polygon data-v-9a6e255c="" points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div style="    display: flex;
+        align-items: center;
+        justify-content: flex-start !important;
+        padding-left: 46px;">
+                                            <div style="height: 36px;
+                                            border-radius: 23px;
+                                            width: 36px;
+                                            background: #E0F9FC;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            color: #21D5EA;
+                                            font-size: 0.8rem;
+                                            font-weight: bolder;">
+                                                <p>MG</p>
+                                            </div>
+                                            <div style="    margin-left: 9px;">
+                                                <h3 class="table-name">Mary Garcia</h3>
+                                                <p class="table-email">gjordan@fernandez-coleman.com</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>$2719</div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            13 Jan 2020
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <div style="display: flex;
+                                        align-items: center;
+                                        justify-content: center;">
+                                                <div style="    width: 41px;
+                                                font-size: 0.8rem;
+                                                font-weight: 700;
+                                                border-radius: 21px;
+                                                background: #E5F8ED;
+                                                color: #33CB77;
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;">
+                                                    Paid
+                                                </div>
+                                            </div>
+    
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div style=" display: flex;
+        align-items: center;
+        width: 116px;
+        margin-left: 30px;
+        justify-content: space-evenly;">
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" color="#808080" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="invoice-row-5036-send-icon" class="cursor-pointer feather feather-send"><line data-v-9a6e255c="" x1="22" y1="2" x2="11" y2="13"></line><polygon data-v-9a6e255c="" points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="invoice-row-5036-preview-icon" class="mx-1 feather feather-eye"><path data-v-9a6e255c="" d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle data-v-9a6e255c="" cx="12" cy="12" r="3"></circle></svg>
+                                            <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="align-middle text-body feather feather-more-vertical"><circle data-v-9a6e255c="" cx="12" cy="12" r="1"></circle><circle data-v-9a6e255c="" cx="12" cy="5" r="1"></circle><circle data-v-9a6e255c="" cx="12" cy="19" r="1"></circle></svg>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-bottom">
+                        <p style="background: white;
+                        color: #b9b9c3!important;
+                        margin-left: 24px;
+                        font-size: 14px;">Showing 1 to 10 of 50 entries</p>
+                        <div class="pagination">
+                            <div style="
+                            
+                            background: #F3F3F3;
+                            width: 32px;
+                            height: 32px;
+                            display: flex;
+                            border-radius: 17px;
+                            align-items: center;
+                            justify-content: center;
+                            cursor: pointer;
+                            
+                            ">
+                                <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" color="#808080" font-size="1rem" width="18px" height="18px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline data-v-9a6e255c="" points="15 18 9 12 15 6"></polyline></svg>
+                            </div>
+                            <div style="
+                            display: flex;
+                            margin-left: 17px;
+                            margin-right: 17px;
+                            width: 165px;
+                            border-radius: 14px;
+                            align-items: center;
+                            justify-content: space-evenly;
+                            color: #808080;
+                            height: 33px;
+                            background: #F3F3F3;
+                            cursor: pointer;
+                            font-size: 13px;
+                            font-weight: 500;
+                            ">
+                                <div style="    height: 24px;
+                                width: 24px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                background: #7367F0;
+                                border-radius: 18px;
+                                color: white;">1</div>
+                                <div>2</div>
+                                <div>3</div>
+                                <div>4</div>
+                                <div>5</div>
+                            </div>
+                            <div style="
+                            background: #F3F3F3;
+                            width: 32px;
+                            height: 32px;
+                            display: flex;
+                            border-radius: 17px;
+                            align-items: center;
+                            justify-content: center;
+                            cursor: pointer;
+                            
+                            ">
+                                <svg data-v-9a6e255c="" xmlns="http://www.w3.org/2000/svg" color="#808080" font-size="1rem" width="18px" height="18px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline data-v-9a6e255c="" points="9 18 15 12 9 6"></polyline></svg>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <footer style="    height: 25px;
+                width: 96%;
+                color: #808080;
+                margin-left: 16px;
+                margin-top: 24px;
+                font-size: 0.92rem;" class="copy-ryt">
+                    COPYRIGHT © 2022 <span style="color: #7367F0;">Pixinvent</span>, All rights Reserved
+                </footer>
+            </section>
+
+        </section>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
